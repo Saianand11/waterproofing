@@ -3,7 +3,7 @@ import Logo from './../assets/LOGO1.png'
 
 const Footer = () => {
   return (
-    <footer class="text-gray-600 body-font bg-BgColor">
+    <footer class="text-gray-600 body-font w-full bg-BgColor">
       <div class="container px-5 py-24 mx-auto">
         {/* <div class="flex flex-wrap md:text-left text-center order-first">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
     </div> */}
       </div>
-      <div class="bg-gray-100 text-TextColor ">
+      <div class="bg-gray-100 text-TextColor w-full ">
         <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col bg-BgColor">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img alt="" class="w-20 h-38 text-white p-2 " viewBox="0 0 24 24" src={Logo} />
